@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "rootDir": "./", // Specify root directory where the source files are located
+    "baseUrl": "./", // Base directory for non-relative module names
+    "paths": {
+      "*": [
+        "node_modules/*",
+        "./types/*"
+      ]
+    }
+  },
+  "include": [
+    "./**/*"
+  ], // Adjust to match your directory structure
+  "exclude": [
+    "node_modules"
+  ]
+}

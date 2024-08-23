@@ -1,0 +1,26 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "Bot": "ts-node ./bot/bot.ts",
+    "dev": "ts-node-dev ./bot/bot.ts",
+    "mint": "ts-node-dev ./solana/tokenMint/mint.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.8",
+    "@solana/spl-token-metadata": "^0.1.4",
+    "@solana/web3.js": "^1.95.2",
+    "axios": "^1.7.4",
+    "bs58": "^6.0.0",
+    "dotenv": "^16.4.5",
+    "telegraf": "^4.16.3",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0"
+  }
+}
